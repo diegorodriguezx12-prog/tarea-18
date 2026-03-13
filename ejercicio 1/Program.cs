@@ -22,7 +22,6 @@
 
             if (opcion == 1)
             {
-                // Registro de datos
                 Console.Write("Nombre del estudiante: ");
                 string nombre = Console.ReadLine();
 
@@ -33,7 +32,6 @@
                 Console.Write("Nota 3: ");
                 double n3 = double.Parse(Console.ReadLine());
 
-                // Cálculo del promedio
                 double promedio = (n1 + n2 + n3) / 3;
 
                 string estado = "";
