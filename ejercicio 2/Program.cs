@@ -37,7 +37,7 @@
                     ventaMayor = totalVenta;
                 }
 
-                Console.WriteLine("\n--- TICKET ---");
+                Console.WriteLine("--- TICKET ---");
                 Console.WriteLine("Producto: " + producto);
                 Console.WriteLine("Total: " + totalVenta);
             }
@@ -60,7 +60,7 @@
 
             if (opcion != 5)
             {
-                Console.WriteLine("\nPresione una tecla...");
+                Console.WriteLine("Presione una tecla...");
                 Console.ReadKey();
             }
         } while (opcion != 5);
